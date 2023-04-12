@@ -38,7 +38,7 @@
             <div class="image">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-mgu.jpg" alt="">
             </div>
-            <div class="title">МГУ</div>
+            <div class="title"><a href="#">МГУ</a></div>
         </div>
     </div>
 </section>

@@ -73,7 +73,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 
 /* Custom elements */
 .btn-solid{
-    background: #0ea5e9;
+    background: #2c698d;
     color: #ffffff;
     text-transform: uppercase;
     padding: 15px 20px;
@@ -347,18 +347,25 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .content-team-item{
     flex: 1 0 32%;
     margin-left: 15px;
+    text-align: center;
 }
 .content-team-item:first-of-type{
     margin-left: 0;
 }
 .content-team-item .image{
     margin-bottom: 15px;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.content-team-item .image img{
+    width: 100%;
+    display: block;
 }
 .team-prof{
-    font-size: 20px;
+    font-size: 16px;
 }
 .team-name{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 .team-social{
@@ -373,16 +380,15 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .info-posts-container{
     position: relative;
     border-radius: 15px;
-    padding: 30px;
 }
 .info-posts-container:first-of-type{
     margin-bottom: 25px;
 }
 .info-posts-container p{
-    margin-bottom: 0;
-    font-size: 21px;
-    color: #fff;
-    line-height: 31px;
+    font-size: 16px;
+    color: #171821;
+    line-height: 26px;
+    margin-bottom: 1rem;
 }
 .info-posts-container p span{
     display: block;
@@ -395,16 +401,17 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .fishka-container{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 .fishka-item{
     flex: 1 0 32%;
     padding: 15px;
-    margin-left: 15px;
     color: #fff;
     position: relative;
+    margin-bottom: 2rem;
 }
 .fishka-item-1::before{
-    content: '1';
+    content: '✔';
     font-size: 250px;
     font-weight: 700;
     color: rgba(255,255,255,.3);
@@ -413,7 +420,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     bottom: 0;
 }
 .fishka-item-2::before{
-    content: '2';
+    content: '✔';
     font-size: 250px;
     font-weight: 700;
     color: rgba(255,255,255,.3);
@@ -422,7 +429,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     bottom: 0;
 }
 .fishka-item-3::before{
-    content: '3';
+    content: '✔';
     font-size: 250px;
     font-weight: 700;
     color: rgba(255,255,255,.3);
@@ -443,9 +450,6 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     font-weight: 700;
     color: rgba(255,255,255,.3);
     line-height: 1;
-}
-.fishka-item:first-of-type{
-    margin-left: 0;
 }
 .fishka-title{
     font-weight: 700;
@@ -569,8 +573,11 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     text-align: left;
     flex: 1;
     flex-wrap: wrap;
-    border: 1px solid #eeeeef;
+    border: 1px solid #2a6fdb;
     border-radius: 5px;
+    text-align: center;
+    background: #2a6fdb;
+    color: #fff;
 }
 .rewiews-content .rewiews-item:first-of-type{
     margin-left: 0;
@@ -602,7 +609,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 50%;
-    background-color: #eeeeef;
+    background-color: #122c91;
 }
 .vuz-item .image img{
     border-radius: 50%;
@@ -610,7 +617,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .vuz-item .title a{
     color: #54555E;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .vuz-item .title a:hover{
     text-decoration: underline;
@@ -624,9 +631,12 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     margin: 0 -10px;
 }
 .skills-item{
-    flex: 1 0 15%;
+    flex: 1 0 13%;
     margin: 0 10px 10px;
     text-align: center;
+    background: #2a6fdb;
+    padding: 1rem 2rem 3rem;
+    border-radius: 1rem;
 }
 .skills-item .image{
     margin-bottom: 5px;
@@ -635,9 +645,9 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     border-radius: 50%;
 }
 .skills-item .title a{
-    color: #54555E;
+    color: #fff;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .skills-item .title a:hover{
     text-decoration: underline;
